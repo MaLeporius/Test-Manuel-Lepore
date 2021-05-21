@@ -1,0 +1,111 @@
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+p, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+.container-wrapper-general {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.navbar-section-logo .logo {
+    width: 40px;
+    height: auto;
+}
+.navbar-link a {
+    padding-right: 24px;
+    color: #2e856e;
+    text-transform: uppercase;
+}
+.navbar-link a:last-child {
+    padding-right: 0;
+}
+.container-header {
+    background-image: url(../images/image\ 1.jpg);
+    background-position: center;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+.title-header {
+    color: #fff;
+}
+.btn-header {
+    background-color: #7fffd4;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    font-size: 12px;
+}
+.btn-header:hover {
+    color: #fff;
+}
+.section-container-img-box {
+    position: relative;
+}
+.section-box-img img {
+    width: 100%;
+}
+.section-box-img p {
+    font-weight: 600;
+    margin: 0;
+}
+.form-group label {
+    font-weight: 600;
+    font-size: 18px;
+}
+.form-control {
+    border-radius: unset;
+    width: 25%;
+    margin: auto;
+}
+.container-newsletter {
+    background-color: #F0F0F0;
+}
+.spacer-footer-dark {
+    background-color: #383838; 
+}
+.box-news {
+    color: #fff;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px 14px;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+@media screen and (max-width: 1024px) {
+    .container-wrapper-general {
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .container-wrapper-general {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .nav-col {
+        text-align: center;
+    }
+    .navbar-link {
+        background-color: #f2f2f2;
+    }
+    .navbar-link a {
+        display: block;
+        padding: 0;
+    }
+    .title-header {
+        font-size: 24px;
+    }
+}
